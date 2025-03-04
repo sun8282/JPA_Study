@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JPA_Study.iml" filepath="$PROJECT_DIR$/.idea/JPA_Study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/h2/src/h2.iml" filepath="$PROJECT_DIR$/h2/src/h2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/h2/src/java21/java21.iml" filepath="$PROJECT_DIR$/h2/src/java21/java21.iml" />
+    </modules>
+  </component>
+</project>
