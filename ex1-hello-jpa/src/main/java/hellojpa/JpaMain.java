@@ -17,16 +17,11 @@ public class JpaMain {
         try{
 
             //Member findMember = em.find(Member.class, 1L);
-            List<Member> result = em.createQuery("select m from Member as m", Member.class)
-                    .setFirstResult(1)
-                    .setMaxResults(10)
-                    .getResultList();
-            for (Member member : result) {
-                System.out.println("member.name = " + member.getName());
-            }
+            Member member = em.find(Member.class, 150L);
+            member.setName("ZZZZZ");
 
 
-            //em.persist(member);
+            System.out.println(" =============================== ");
             tx.commit();
         }catch(Exception e){
             tx.rollback();
